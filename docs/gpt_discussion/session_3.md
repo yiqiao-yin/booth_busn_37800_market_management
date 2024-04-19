@@ -81,13 +81,13 @@ PCA is based on several key assumptions:
 
 ### Notation and Mathematical Formulation
 
-Let's consider a data matrix, \( X \), with \( n \) samples and \( p \) variables. PCA seeks to find a set of \( p \) orthogonal vectors in \( \mathbb{R}^p \) that can best explain the variance in \( X \). The objective function can be expressed as:
+Let's consider a data matrix, $ X $, with $ n $ samples and $ p $ variables. PCA seeks to find a set of $ p $ orthogonal vectors in $ \mathbb{R}^p $ that can best explain the variance in $ X $. The objective function can be expressed as:
 
-\[
+$$
 \max_{\| u_i \| = 1} \{ \| X u_i \|^2 \}
-\]
+$$
 
-where \( u_i \) is the ith principal component.
+where $ u_i $ is the ith principal component.
 
 The principal components are solved by eigenvalue decomposition of the data covariance matrix or singular value decomposition (SVD) of the data matrix itself. The first principal component is the direction that maximizes the variance of the projected data. Each succeeding component, in turn, maximizes the variance under the constraint that it is orthogonal to the preceding components.
 

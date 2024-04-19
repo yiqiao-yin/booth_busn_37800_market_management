@@ -53,7 +53,7 @@ $$
 \min_{S} \sum_{i=1}^{k} \sum_{x \in S_i} \| x - \mu_i \|^2
 $$
 
-where $S = \{S_1, S_2, \ldots, S_k\}$ represents the set of clusters,$x$denotes the data points in cluster $S_i$, and $\mu_i$ is the centroid of points in$S_i$.
+where $S = \{S_1, S_2, \ldots, S_k\}$ represents the set of clusters,$x$denotes the data points in cluster $S_i$, and $\mu_i$ is the centroid of points in $S_i$.
 
 ### Intuition Behind K-Means
 

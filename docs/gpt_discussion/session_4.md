@@ -32,26 +32,26 @@ The Bass Model is a seminal framework in marketing for forecasting the adoption 
 
 The Bass Model is expressed through the following equation:
 
-\[ f(t) = \frac{(p + q \frac{F(t)}{M}) (M - F(t))}{M} \]
+$$ f(t) = \frac{(p + q \frac{F(t)}{M}) (M - F(t))}{M} $$
 
 Where:
-- \( f(t) \) represents the probability density function of adoption at time \( t \).
-- \( p \) is the coefficient representing innovation.
-- \( q \) is the coefficient representing imitation.
-- \( F(t) \) is the cumulative distribution function, indicating the number of adopters by time \( t \).
-- \( M \) is the total market potential or the total number of adopters over time.
+- $f(t)$ represents the probability density function of adoption at time $t$.
+- $p$ is the coefficient representing innovation.
+- $q$ is the coefficient representing imitation.
+- $F(t)$ is the cumulative distribution function, indicating the number of adopters by time $t$.
+- $M$ is the total market potential or the total number of adopters over time.
 
 #### Finding the Peak Point in the Bass Model
 
-The peak of the adoption curve, where the rate of adoption is highest, is a critical point. It occurs when the derivative of the adoption function \( f(t) \) with respect to \( t \) equals zero.
+The peak of the adoption curve, where the rate of adoption is highest, is a critical point. It occurs when the derivative of the adoption function $f(t)$ with respect to $t$ equals zero.
 
 ##### Derivation of the Peak Point
 
-To find this, we solve for \( t \) in the equation:
+To find this, we solve for $t$ in the equation:
 
-\[ \frac{d}{dt} \left( \frac{(p + q \frac{F(t)}{M}) (M - F(t))}{M} \right) = 0 \]
+$$ \frac{d}{dt} \left( \frac{(p + q \frac{F(t)}{M}) (M - F(t))}{M} \right) = 0 $$
 
-This involves setting the derivative of the Bass Model formula to zero and solving for \( t \), which often requires numerical methods if it cannot be simplified directly.
+This involves setting the derivative of the Bass Model formula to zero and solving for $t$, which often requires numerical methods if it cannot be simplified directly.
 
 #### Python Example of the Bass Model
 
@@ -166,13 +166,13 @@ Conjoint analysis involves presenting participants with a set of alternatives, w
 
 The utility of a product in conjoint analysis is typically represented as:
 
-\[ U(x) = \beta_0 + \sum_{j=1}^{n} \beta_j x_j \]
+$$ U(x) = \beta_0 + \sum_{j=1}^{n} \beta_j x_j $$
 
 Where:
-- \( U(x) \) is the utility derived from a product profile \( x \),
-- \( \beta_0 \) is the base utility,
-- \( \beta_j \) are the part-worths associated with the levels of attribute \( j \),
-- \( x_j \) are the levels of attribute \( j \) present in the product profile.
+- $U(x)$ is the utility derived from a product profile $x$,
+- $\beta_0$ is the base utility,
+- $\beta_j$ are the part-worths associated with the levels of attribute $j$,
+- $x_j$ are the levels of attribute $j$ present in the product profile.
 
 ## Types of Conjoint Analysis
 
